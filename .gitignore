@@ -1,0 +1,11 @@
+# default set ignore all
+*
+
+# Exceptions - files included
+!.gitignore
+!src/
+!vendor/
+!above-the-fold-tracker.php
+!composer.json
+!Explanation.md
+!readme.txt
