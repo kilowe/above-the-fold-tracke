@@ -3,7 +3,7 @@
 
 # Exceptions - files included
 !.gitignore
-!src/
+!src/**
 !vendor/
 !above-the-fold-tracker.php
 !composer.json
