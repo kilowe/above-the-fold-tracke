@@ -1,0 +1,1 @@
+Pourquoi nous avons désactiver les admins si confuguré dans le fichier class-script-injector.php dans la fonction "enqueue_scripts"
