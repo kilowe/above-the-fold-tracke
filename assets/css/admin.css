@@ -1,0 +1,90 @@
+/* Style général */
+.atf-admin {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Cartes statistiques */
+.atf-stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  flex: 1;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-left: 4px solid #0073aa;
+}
+
+.stat-card h3 {
+  font-size: 2em;
+  margin: 0 0 10px;
+  color: #0073aa;
+}
+
+/* Modal */
+.atf-modal {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.atf-modal-content {
+  background: #fff;
+  margin: 5% auto;
+  padding: 30px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px;
+  position: relative;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.atf-close {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Tableau */
+.atf-admin table ul {
+  margin: 0;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.atf-admin table li {
+  list-style: none;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.atf-admin table li:last-child {
+  border-bottom: none;
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+  .atf-stats {
+    flex-direction: column;
+  }
+
+  .stat-card {
+    margin-bottom: 15px;
+  }
+}
